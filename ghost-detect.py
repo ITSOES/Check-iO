@@ -1,0 +1,1 @@
+recognize=lambda n:len(set(bin(n*2)[2:].split('0')))<3

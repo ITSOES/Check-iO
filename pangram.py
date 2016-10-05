@@ -1,0 +1,1 @@
+check_pangram = lambda text: len(set(filter(str.isalpha, text.lower()))) == 26

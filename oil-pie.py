@@ -1,0 +1,1 @@
+divide_pie = lambda g,v=1:(lambda v: [v.numerator,v.denominator])(reduce(lambda v, m: v - __import__("fractions").Fraction(m,sum(map(abs,g)))*(m>0 or-v),g, 1))

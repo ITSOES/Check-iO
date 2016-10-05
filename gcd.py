@@ -1,0 +1,1 @@
+greatest_common_divisor = lambda *args: reduce(__import__('fractions').gcd, args)
